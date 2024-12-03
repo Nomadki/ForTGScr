@@ -1,0 +1,3 @@
+python search_channels.py --first_words first_words.txt --last_words last_words.txt --output results.txt --min_subscribers 1000 --session_name my_account
+
+python fetch_users.py --chat https://t.me/example_group --output usernames_list.txt --session_name my_account
